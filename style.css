@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+body{
+    /* background-color: black; */
+    color: #fff;
+}
+div{
+    /* border: 1px solid red; */
+}
+/* ----------nav-bar-------------- */
+.nav-wrapper{
+    background-color: black;
+
+}
+.nav-upper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-top: 10px;
+
+}
+.nevigation span{
+ margin: 20px;
+ cursor: pointer;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu span{
+    margin-right: 15px;
+    cursor: pointer;
+}
+#logo{
+    width: 89px;
+    cursor: pointer;
+}
+#Dropdown{
+    width: 65px;
+    margin-top: 5px;
+}
+#globe{
+    width: 17px;
+    margin-top: 5px;
+}
+.nav-down{
+    margin: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.nav-search{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius: 30px;
+    color: black;
+}
+.divider{
+    width: 1px;
+    margin: 0px 10px;
+}
+.nevigation span:first-child{
+    text-decoration: underline;
+}
+.nav-search div{
+    margin-left: 20px;
+}
+.nav-search input{
+    border: none;
+    padding: 2px;
+}
+.nav-search label{
+    font-weight: 500;
+    font-size: 13px;
+}
+.search-icon img{
+    width: 40px;
+    margin-right: 3px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+/* -----------------main contest start---------------- */
+.main-container{
+    width: 80%;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+}
+ 
+.display{
+    background-color: black;
+    margin-top: -21px;
+}
+.homepage{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+}
+.homeImg{
+    width: 100%;
+    /* border: 1px solid red; */
+   
+    
+}
+.lower-main{
+    /* margin: 20px 0px; */
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    padding: 0px 80px;
+}
+.cards-wrapper{
+    /* width: 80%; */
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+.card{
+    /* border: 1px solid red; */
+    width: 200px;
+}
+.card img{
+    width: 100%;
+    
+    border-radius: 5px;
+}
+.heading{
+    margin: 40px 0px 40px 20px;
+    /* margin: 20px 0px  */
+   
+}
+.heading h3{
+    font-weight: 600;
+}
+.cards-container{
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    min-height: 250px;
+    border-radius: 5px;
+    background: rgba(204, 45, 74, 1);
+}
+.card-content{
+    margin: 20px 0px 10px 10px;
+    color: white;
+}
+.card-content h2{
+    font-weight: 500;
+}
+.card-content p{
+    font-size: 11px;
+    margin-top: 5px;
+}
+#head-2{
+    margin-top: 50px;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.section-2 img{
+    width: 48%;
+}
+.gift-card{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+.gift-card .cards-img img{
+    width: 85%;
+    margin: 20px 90px;
+}
+.giftCardContent{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 40%;
+}
+.giftCardContent p{
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.giftCardContent button{
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.section-4 img{
+    width: 100%;
+    margin-top: 20px;
+}
+footer{
+    color: black;
+}
+.upper-footer,.lower-footer{
+    width: 90%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+    padding: 2px;
+}
+.heading-row{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: -20px;
+    font-weight: 100;
+    color:black;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+hr{
+    margin-left: 20px;
+    margin-top: -5px;
+    background-color: grey;
+    opacity:0.1;
+    height: 0.8px;
+    width: 90%;
+    margin:0px auto
+
+}
+.upper-footer hr{
+    width: 100%;
+}
+.upper-footer li a:last-child{
+    color: grey;
+    font-size: 12px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+}
+.upper-footer ul li:last-child{
+    text-decoration:underline;
+    color: black;
+}
+.list ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+   margin-top: 20px;
+}
+.lower-footer{
+    background: rgba(249, 250, 251, 1);
+    width: 100%;
+    margin-top: 20px ;
+    
+}
+.lower-footer-container{
+    width: 90%;
+    /* border: 1px solid red; */
+    margin:0px auto;
+}
+.lower-footer-container div p{
+    font-size: 12px;
+    color: rgba(75, 85, 99, 1);
+    margin:20px;
+}
+.lower-footer-container h5{
+    margin: 20px;
+}
+.lower-footer-container {
+    padding: 20px;
+    display: flex;
+    gap: 85px;
+}
+.lower-footer-container a{
+    color: rgba(75, 85, 99, 1);
+    font-size: 11px;
+}
+.lower-footer-container li{
+    margin-bottom: 10px;
+}
+.social-media{
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    color: rgba(75, 85, 99, 1);
+    display: flex;
+    justify-content: space-between;
+
+}
+.social-media img{
+    width: 13px;
+}
+.right{
+    display: flex;
+    gap: 10px;
+}
+.right div{
+    display: flex;
+    gap: 20p;
+}
+.right div p{
+    font-size: 10px;
+}
+.social-icon img{
+    margin-left: 10px;
+    cursor: pointer;
+}
